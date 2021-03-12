@@ -6,7 +6,7 @@
 
 
 .row {
-  width: 992px;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -89,10 +89,7 @@ img {
       margin-top: 0;
     }
     
-    .row{
-      width: 420px;
-      
-    }
+    
     
     #lezioni.container,
     #why.container{
@@ -135,7 +132,7 @@ img {
     
   }
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) and (min-width: 421px) {
   
     
     .container>*{
@@ -147,16 +144,13 @@ img {
       margin-top: 0;
     }
     
-    .row{
-      width: 768px;
-      
-    }
+    
 
     #lezioni .row img,
     #steps .row img,
     #why .row img{
       
-      height: 150px;
+      height: 100px;
       padding-top: 20px;
     }
 
@@ -164,8 +158,8 @@ img {
     #steps.container.grey .row>.central{
       width: 40%;
     background-color: green;
-    padding: 70px;
-    margin-left: 50px;
+    padding: 30px;
+    margin-left: 6%;
     }
 
     #steps.container.grey .row>.right {
